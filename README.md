@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <h1 align="center"> DevLinks </h1>
 
 <p align="center">
@@ -50,3 +51,7 @@ Esse projeto está sob a licença MIT.
 ---
 
 Feito com ♥ by Rocketseat :wave: [Participe da nossa comunidade!](https://discord.gg/rocketseat)
+=======
+# rocketseat_discover2023
+Estudos de Front-End via Rocketseat - Projeto Discover 2023 | Teacher Mayk Brito.
+>>>>>>> 18758839b10eb3ac1eb4940cefd726c5a465bd5e
