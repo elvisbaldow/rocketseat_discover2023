@@ -27,6 +27,7 @@
 body {
   /*a leitura da background é feita por: color image repeat position/size*/
   background: var(--bg-url) no-repeat center top/cover;
+  height: 100vh; /*100% viewport (vp) ou seja preencherá toda parte visível*/
   /* background-size: cover;  estica a imagem para cobrir todo fundo */
 }
 body * {
@@ -155,4 +156,16 @@ footer {
   text-align: center;
   padding: 24px 0;
   font-size: 14px;
+}
+/* media requeries */
+/*forma de editar layout para ser responsivo*/
+
+@media (min-width: 700px) {
+  :root {
+    --bg-url: url(./assets/bg-desktop.jpg);
+  }
+
+  .light {
+    --bg-url: url(./assets/bg-desktop-light.jpg);
+  }
 }
